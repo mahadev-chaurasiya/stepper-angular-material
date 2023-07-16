@@ -1,0 +1,31 @@
+<div style="width: 100%; height: 100%;">
+<mat-horizontal-stepper>
+  <mat-step label="Shoping Items" completed=true>
+    <p style="color: aliceblue;">Shopping Item page</p>
+    <div>
+      <button color="primary" mat-raised-button matStepperNext>Next</button>
+    </div>
+  </mat-step>
+  <mat-step label="Add Shipping Address" completed=false optional="">
+    <p style="color: aliceblue;">Add Shipping Address</p>
+    <div>
+      <button color="primary" mat-raised-button matStepperPrevious>Previous</button>&nbsp;
+      <button color="primary" mat-raised-button matStepperNext>Next</button>
+    </div>
+  </mat-step>
+  <mat-step label="Add Billing Addrerss" completed=false>
+    <p style="color: aliceblue;">Add Billing Address</p>
+    <div>
+      <button color="primary" mat-raised-button matStepperPrevious>Previous</button>&nbsp;
+      <button color="primary" mat-raised-button matStepperNext>Next</button>
+    </div>
+  </mat-step>
+  <mat-step label="Place your order" completed=false>
+    <p style="color: aliceblue;">Place your order</p>
+    <div>
+      <button color="primary" mat-raised-button matStepperPrevious>Previous</button> &nbsp;
+      <button color="primary" mat-raised-button>Submit</button>
+    </div>
+  </mat-step>
+</mat-horizontal-stepper>
+</div>
